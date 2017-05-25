@@ -1,0 +1,34 @@
+{
+  "name": "@types/web3",
+  "version": "1.0.0",
+  "description": "types for ethereum web3.js",
+  "main": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "typeScriptVersion": "2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slockit/web3.ts.git"
+  },
+  "keywords": [
+    "web3",
+    "ethereum",
+    "types",
+    "slock.it"
+  ],
+  "author": "Simon Jentzsch, Slock.it",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slockit/web3.ts/issues"
+  },
+  "homepage": "https://github.com/slockit/web3.ts#readme",
+  "dependencies": {
+    "@types/underscore": "^1.8.0",
+    "web3": "git://github.com/ethereum/web3.js.git#1.0"
+  },
+  "devDependencies": {
+    "@types/bignumber.js": "^4.0.2",
+    "lerna": "^2.0.0-rc.5"
+  }
+}
