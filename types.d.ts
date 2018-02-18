@@ -347,7 +347,7 @@ export declare class Eth {
   currentProvider: Provider
   estimateGas(tx: Tx, callback?: Callback<number>): Promise<number>
   getAccounts(cb?: Callback<Array<string>>): Promise<Array<string>>
-  getBalance(address: string, defaultBlock?: BlockType, cb?: Callback<number>): Promise<number>
+  getBalance(address: string, defaultBlock?: BlockType, cb?: Callback<number>): Promise<string>
   getBlock(number: BlockType, returnTransactionObjects?: boolean, cb?: Callback<Block>): Promise<Block>
   getBlockNumber(callback?: Callback<number>): Promise<number>
   getBlockTransactionCount(number: BlockType | string, cb?: Callback<number>): Promise<number>
